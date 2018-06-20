@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  RSP
+
+  Created by 스마트금융과3 on 2018. 6. 20..
+  Copyright © 2018년 ssw. All rights reserved.
+*/
+"비겼습니다" = "Even" ;
+"이겼습니다" = "Win" ;
+"졌습니다" = "Lose";
+"가위바위.." = "Hey Ready...";

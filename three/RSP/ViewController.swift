@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var messageLabel: UILabel!
     
-    
+
     @IBOutlet weak var labelMe: UILabel!
     
     @IBOutlet weak var labelCom: UILabel!
@@ -29,16 +29,17 @@ class ViewController: UIViewController {
     var winCountCom:Int = 0
     
     
+    @IBOutlet weak var msgLabel: UIButton!
     
     @IBAction func tapStart(_ sender: Any) {
         computerImageView.image = UIImage(named: "rock.png")
         playerImageView.image = UIImage(named: "rock.png")
-        messageLabel.text = "가위 바위...."
+        messageLabel.text = NSLocalizedString("가위바위..", comment:"rdy") 
     }
     
     
     @IBAction func tapScissors(_ sender: Any) {
-        playerImageView.image = UwIImage(named: "scissors.png")
+        playerImageView.image = UIImage(named: "scissors.png")
         doComputer(player: 0)
     }
     
@@ -65,12 +66,12 @@ class ViewController: UIViewController {
             computerImageView.image=UIImage(named : "scissors.png")
             switch player{
             case 0:  //가위
-                msg = "비겼습니다"
+                msg = NSLocalizedString("비겼습니다", comment:"rdy")
             case 1:  //주먹
-                msg = "victory!"
+                msg = NSLocalizedString("이겼습니다", comment:"rdy")
                 winCountMe += 1
             case 2:  //보
-                msg = "loser!"
+                msg = NSLocalizedString("졌습니다", comment:"rdy")
                 winCountCom += 1
             default:
                 break
@@ -80,12 +81,12 @@ class ViewController: UIViewController {
             computerImageView.image = UIImage(named: "rock.png")
             switch player {
             case 0: // 가위
-                msg = "졌습니다ㅠㅁㅜ"
+                msg = NSLocalizedString("졌습니다", comment:"rdy")
                 winCountCom += 1
             case 1: // 바위
-                msg = "비겼어요!"
+                msg = NSLocalizedString("비겼습니다", comment:"rdy")
             case 2: // 보
-                msg = "you winner!"
+                msg = NSLocalizedString("이겼습니다", comment:"rdy")
                 winCountMe += 1
             default:
                 break
@@ -95,13 +96,13 @@ class ViewController: UIViewController {
             computerImageView.image = UIImage(named: "paper.png")
             switch player {
             case 0: // 가위
-                msg = "아싸 승"
+                msg = NSLocalizedString("이겼습니다", comment:"rdy")
                 winCountMe += 1
             case 1: // 바위
-                msg = "졌잘싸.."
+                msg = NSLocalizedString("졌습니다", comment:"rdy")
                 winCountCom += 1
             case 2: // 보
-                msg = "똑같은거 내지마!"
+                msg = NSLocalizedString("비겼습니다", comment:"rdy")
             default:
                 break
             }

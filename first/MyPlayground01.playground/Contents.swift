@@ -2,11 +2,20 @@
 
 import UIKit
 ////견고한 프로그래머
-// var a = 1
-// if 1==a {
-//    print("hello")
-//}
-//  a=1이 아닌 위와 같이 하고 혹시 = 를 뺴먹었을때, 컴파일 가능
+ var a = 1
+ if 1==a {
+    print("hello")
+}
+ // a=1이 아닌 아래와 같이 하고 혹시 = 를 뺴먹었을때, 컴파일 가능
+if 1 == a {
+    print("d")
+}
+
+//른 프로그래밍에선 이게 그냥 넘어감 true 인식 원래는 a==1 일때만 하려고 의도했지만 말이지
+if  a == 1{ 
+    print("hello world!" )
+}
+
 
 
 //var aa = 1

@@ -15,6 +15,12 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     var managedObjectContext: NSManagedObjectContext? = nil
     let naverUrl = "https://openapi.naver.com/v1/search/blog?query=" // Naver Open API URL
 
+    
+    var objects = ["fireworks001", "fireworks002", "fireworks003", "fireworks004",
+                   "fireworks005", "fireworks006", "fireworks007"]
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

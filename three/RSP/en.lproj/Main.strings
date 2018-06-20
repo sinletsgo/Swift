@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "플레이어"; ObjectID = "CMN-9s-Wj1"; */
+"CMN-9s-Wj1.text" = "player";
+
+/* Class = "UIButton"; normalTitle = "가위"; ObjectID = "JPr-EJ-1Wv"; */
+"JPr-EJ-1Wv.normalTitle" = "scissors";
+
+/* Class = "UILabel"; text = "컴퓨터"; ObjectID = "OhS-xc-F6G"; */
+"OhS-xc-F6G.text" = "com";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Pdm-oD-BtN"; */
+"Pdm-oD-BtN.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "보"; ObjectID = "Q9D-XQ-wyb"; */
+"Q9D-XQ-wyb.normalTitle" = "paper";
+
+/* Class = "UIButton"; normalTitle = "준비"; ObjectID = "aJN-92-KIm"; */
+"aJN-92-KIm.normalTitle" = "ready";
+
+/* Class = "UILabel"; text = "전적"; ObjectID = "d8U-dN-rfF"; */
+"d8U-dN-rfF.text" = "score";
+
+/* Class = "UIButton"; normalTitle = "바위"; ObjectID = "dX5-xX-4hM"; */
+"dX5-xX-4hM.normalTitle" = "rock";
+
+/* Class = "UILabel"; text = "가위 바위 보 게임"; ObjectID = "h5q-Ui-xP2"; */
+"h5q-Ui-xP2.text" = "RSP Application";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "y54-fa-A78"; */
+"y54-fa-A78.text" = "0";
