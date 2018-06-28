@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2qg-PU-ji8"; */
+"2qg-PU-ji8.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "바위"; ObjectID = "7zc-u6-SaM"; */
+"7zc-u6-SaM.normalTitle" = "바위";
+
+/* Class = "UILabel"; text = "컴퓨터"; ObjectID = "BDA-lH-3JK"; */
+"BDA-lH-3JK.text" = "컴퓨터";
+
+/* Class = "UILabel"; text = "전적"; ObjectID = "CIL-ax-WfP"; */
+"CIL-ax-WfP.text" = "전적";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "V4f-FZ-X11"; */
+"V4f-FZ-X11.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "보"; ObjectID = "X0W-PO-DF0"; */
+"X0W-PO-DF0.normalTitle" = "보";
+
+/* Class = "UILabel"; text = "가위바위보 애플리케이션"; ObjectID = "Xwt-3h-Ikq"; */
+"Xwt-3h-Ikq.text" = "가위바위보 애플리케이션";
+
+/* Class = "UILabel"; text = "나"; ObjectID = "fpY-Aq-guW"; */
+"fpY-Aq-guW.text" = "나";
+
+/* Class = "UIButton"; normalTitle = "가위"; ObjectID = "h2y-LN-P6A"; */
+"h2y-LN-P6A.normalTitle" = "가위";
+
+/* Class = "UIButton"; normalTitle = "준비"; ObjectID = "q8K-9C-c7V"; */
+"q8K-9C-c7V.normalTitle" = "준비";
