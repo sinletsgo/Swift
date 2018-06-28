@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myWebView: WKWebView!
     @IBOutlet weak var depWebView: UIWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,11 +24,11 @@ class ViewController: UIViewController {
         myWebView.load(myRequest)
         
        
-        if let url = URL(string: "http://www.nate.com") {
-            // url이 nil이 아니라면 출력합니다.
-            let urlreq = URLRequest(url: url)
-            depWebView.loadRequest(urlreq)
-        }
+//        if let url = URL(string: "http://www.nate.com") {
+//            // url이 nil이 아니라면 출력합니다.
+//            let urlreq = URLRequest(url: url)
+//            depWebView.loadRequest(urlreq)
+//        }
     }
 
     override func didReceiveMemoryWarning() {
