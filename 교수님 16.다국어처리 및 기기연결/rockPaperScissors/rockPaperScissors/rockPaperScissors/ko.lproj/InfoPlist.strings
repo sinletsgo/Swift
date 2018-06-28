@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  rockPaperScissors
+
+  Created by 스마트금융과29 on 2018. 6. 15..
+  Copyright © 2018년 hwy. All rights reserved.
+*/
+CFBundleDisplayName = "가위바위보 세상";

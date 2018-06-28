@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  rockPaperScissors
+
+  Created by 스마트금융과29 on 2018. 6. 15..
+  Copyright © 2018년 hwy. All rights reserved.
+*/
+"Even" =  "비겼어요!";
+"Win" = "이겼어요!";
+"Lose" = "졌어요!";
+"Hey Ready..." = "준비";
